@@ -1,7 +1,7 @@
 # train.py
 import torch
 import numpy as np
-from models.dqn_model import DQN, get_optimizer
+from prodRL.models.dqn_model import DQN, get_optimizer
 from prodRL.env_gym.product_allocation_env import ProductAllocationEnv
 from prodRL.constant import HYPERPARAMETERS
 
